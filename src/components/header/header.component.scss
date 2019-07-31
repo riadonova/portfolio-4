@@ -1,11 +1,26 @@
 .header-item {
   display: inline-block;
-  border-right: 1px solid #d9d9d9;
+  padding: 10px;
+  height: 50px;
+  vertical-align: top;
+  line-height: 30px;
 }
 
 .header-container {
   border-bottom: 1px solid #d9d9d9;
   i {
+    vertical-align: middle;
     font-size: 17px;
   }
+  .btn {
+    padding: 0 12px;
+  }
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
 }

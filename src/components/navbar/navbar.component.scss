@@ -3,6 +3,15 @@
   font-size: 40px;
 }
 
+.nav-item {
+  .dropdown-menu {
+    padding: 10px;
+    width: 500px;
+    right: 0;
+    left: auto;
+  }
+}
+
 .nav-link {
   margin: 0 20px;
 }
