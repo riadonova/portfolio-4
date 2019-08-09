@@ -1,0 +1,47 @@
+.img-banner-sale:hover {
+  width: 110%;
+}
+
+.sale-banner-one {
+  .text-sales {
+    position: absolute;
+    top: 18px;
+    right: 50px;
+  }
+
+  .percent {
+    font-size: 65px;
+    margin-bottom: 45px;
+  }
+
+  span {
+    .name-sales {
+      font-size: 50px;
+      line-height: 5px;
+    }
+  }
+}
+
+.sale-banner-two {
+  .text-sales {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+  }
+
+  .percent {
+    font-size: 50px;
+  }
+}
+
+.sale-banner-three {
+  .text-sales {
+    position: absolute;
+    top: 300px;
+    right: 50px;
+  }
+
+  .percent {
+    font-size: 50px;
+  }
+}
