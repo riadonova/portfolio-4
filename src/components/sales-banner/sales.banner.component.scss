@@ -1,8 +1,11 @@
 .img-banner-sale:hover {
-  width: 110%;
+  width: 110% !important;
 }
 
 .sale-banner-one {
+  height: 567px;
+  overflow: hidden;
+
   .text-sales {
     position: absolute;
     top: 18px;
@@ -11,37 +14,59 @@
 
   .percent {
     font-size: 65px;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
   }
 
-  span {
-    .name-sales {
-      font-size: 50px;
-      line-height: 5px;
-    }
+  .name-sales {
+    display: inline-block;
+    font-size: 55px;
+    line-height: 60px;
   }
 }
 
+$text-sales-top: 20px;
+
 .sale-banner-two {
+  position: relative;
+  height: 270px;
+  overflow: hidden;
+
   .text-sales {
     position: absolute;
-    top: 10px;
-    left: 50px;
+    top: $text-sales-top;
+    left: 40px;
   }
 
   .percent {
     font-size: 50px;
+  }
+
+  .img-banner-sale:hover {
+    margin-left: -10%;
+    margin-top: -10px;
   }
 }
 
 .sale-banner-three {
+  position: relative;
+  height: 270px;
+  overflow: hidden;
+
   .text-sales {
     position: absolute;
-    top: 300px;
-    right: 50px;
+    top: $text-sales-top;
+    right: 40px;
   }
 
   .percent {
     font-size: 50px;
   }
+
+  .img-banner-sale:hover {
+    margin-left: -10px;
+  }
+}
+
+.img-banner-sale {
+  transition: all 0.3s linear;
 }

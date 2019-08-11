@@ -1,0 +1,25 @@
+.deals-banner {
+  position: relative;
+  height: 500px;
+  background-color: #d7d7d7;
+  img {
+    float: right;
+    height: 500px;
+  }
+}
+
+.deals-text {
+  position: absolute;
+  top: 10%;
+  font-size: 50px;
+}
+
+.deals-header {
+  font-size: 70px;
+}
+
+.offer-text {
+  display: inline-block;
+  font-size: 15px;
+  background-color: rgba(255, 245, 163, 0.78);
+}

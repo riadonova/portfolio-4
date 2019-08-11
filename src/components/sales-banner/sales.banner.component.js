@@ -7,7 +7,7 @@ import imgSaleThree from '../../img/sale-banner-three.jpg';
 export class SalesBanner extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div className="container mb-5">
                 <div className="row">
                     <div className="col-sm-6">
                         <div className="sale-banner-one">
@@ -23,8 +23,8 @@ export class SalesBanner extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm-6">
-                        <div className="sale-banner-two">
-                            <img className="img-banner-sale w-100 mb-4" src={imgSaleTwo} alt="img"/>
+                        <div className="sale-banner-two mb-4">
+                            <img className="img-banner-sale w-100" src={imgSaleTwo} alt="img"/>
                             <div className='text-sales'>
                                 <p className="percent">
                                     <span className="font-weight-bold">10% OFF</span>
@@ -35,8 +35,8 @@ export class SalesBanner extends React.Component {
                             </div>
                         </div>
                         <div>
-                            <div className="sale-banner-three">
-                                <img className="img-banner-sale w-100 mt-1" src={imgSaleThree} alt="img"/>
+                            <div className="sale-banner-three mt-1">
+                                <img className="img-banner-sale w-100" src={imgSaleThree} alt="img"/>
                                 <div className='text-sales'>
                                     <p className="percent">
                                         <span className="font-weight-bold">15% OFF</span>
