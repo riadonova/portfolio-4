@@ -1,3 +1,12 @@
 .nav-link.active {
   color: #ff00a8;
 }
+
+.img-before {
+  position: relative;
+}
+
+.img-after {
+  position: absolute;
+  display: inline-block;
+}
