@@ -1,12 +1,67 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../variables";
+
+$top-text-color: #a3a3a3;
+
 .nav-link.active {
   color: #ff00a8;
 }
 
-.img-before {
+.img-wrapper {
   position: relative;
+  &:hover .img-before {
+    opacity: 0;
+  }
+  &:hover .img-after {
+    opacity: 1;
+  }
+}
+
+.img-before {
+  transition: opacity 0.5s;
 }
 
 .img-after {
   position: absolute;
-  display: inline-block;
+  top: 0;
+  left: $grid-gutter-width/2;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.top-text p a {
+  color: $top-text-color;
+  &:hover {
+    color: #212529;
+}
+
+}
+
+.top-option {
+  position: absolute;
+  left: 90px;
+  bottom: 50px;
+  background-color: rgba(29, 29, 29, 0.91);
+  width: 210px;
+  i {
+    vertical-align: middle;
+  }
+  a {
+    color: $top-text-color;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  p {
+    line-height: 19px;
+  }
+}
+
+.wishlist {
+  border-right: 1px solid $top-text-color;;
+}
+
+.compare {
+  border-left: 1px solid $top-text-color;;
 }

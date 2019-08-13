@@ -7,6 +7,7 @@ import {Advantages} from "./components/advantages/advantages.component";
 import {SalesBanner} from "./components/sales-banner/sales.banner.component";
 import {Top} from "./components/top/top.component";
 import {Deals} from "./components/deals-banner/deals.banner.component";
+import {CarouselBrands} from "./components/carousel-brands/carousel.brands.component";
 
 export class App extends React.Component {
     render() {
@@ -19,6 +20,7 @@ export class App extends React.Component {
                 <SalesBanner/>
                 <Top/>
                 <Deals/>
+                <CarouselBrands/>
             </div>
         );
     }
