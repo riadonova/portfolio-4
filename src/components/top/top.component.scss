@@ -10,11 +10,16 @@ $top-text-color: #a3a3a3;
 
 .img-wrapper {
   position: relative;
-  &:hover .img-before {
-    opacity: 0;
-  }
-  &:hover .img-after {
-    opacity: 1;
+  &:hover {
+    .img-before {
+      opacity: 0;
+    }
+    .img-after {
+      opacity: 1;
+    }
+    .top-option {
+      display: block;
+    }
   }
 }
 
@@ -25,7 +30,7 @@ $top-text-color: #a3a3a3;
 .img-after {
   position: absolute;
   top: 0;
-  left: $grid-gutter-width/2;
+  left: 0;
   opacity: 0;
   transition: opacity 0.5s;
 }
@@ -39,6 +44,7 @@ $top-text-color: #a3a3a3;
 }
 
 .top-option {
+  display: none;
   position: absolute;
   left: 90px;
   bottom: 50px;
@@ -60,9 +66,9 @@ $top-text-color: #a3a3a3;
 }
 
 .wishlist {
-  border-right: 1px solid $top-text-color;;
+  border-right: 1px solid $top-text-color;
 }
 
 .compare {
-  border-left: 1px solid $top-text-color;;
+  border-left: 1px solid $top-text-color;
 }

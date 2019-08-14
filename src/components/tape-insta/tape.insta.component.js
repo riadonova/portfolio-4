@@ -13,7 +13,7 @@ export class Tape extends React.Component {
             <div className="text-center">
                 <h2 className="font-weight-bold">@starshop</h2>
                 <p className="text-secondary mb-4">Follow us on instagram</p>
-                <div className="row">
+                <div className="row img-inst">
                     <div className="col-lg-2">
                         <img src={imgInstOne} alt="img"/>
                     </div>
