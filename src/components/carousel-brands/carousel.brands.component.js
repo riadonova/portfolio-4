@@ -21,6 +21,9 @@ export class CarouselBrands extends React.Component {
         };
         return (
             <div className="container mt-5 mb-5">
+                <div className="text-center">
+                    <h2 className="font-weight-bold">Our Brands</h2>
+                </div>
                 <Slider {...settings}>
                     <div>
                         <div className="brand"><img src={imgBrandOne} alt="img"/></div>
