@@ -10,26 +10,26 @@ import imgInstSix from '../../img/insta-06.jpg';
 export class Tape extends React.Component {
     render() {
         return (
-            <div className="text-center">
+            <div className="text-center pb-5">
                 <h2 className="font-weight-bold">@starshop</h2>
-                <p className="text-secondary mb-4">Follow us on instagram</p>
-                <div className="row img-inst">
-                    <div className="col-lg-2">
+                <p className="text-secondary mb-4">Follow us on Instagram</p>
+                <div className="row">
+                    <div className="col-sm-2 img-inst">
                         <img src={imgInstOne} alt="img"/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-sm-2 img-inst">
                         <img src={imgInstTwo} alt="img"/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-sm-2 img-inst">
                         <img src={imgInstThree} alt="img"/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-sm-2 img-inst">
                         <img src={imgInstFour} alt="img"/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-sm-2 img-inst">
                         <img src={imgInstFive} alt="img"/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-sm-2 img-inst">
                         <img src={imgInstSix} alt="img"/>
                     </div>
                 </div>

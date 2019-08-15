@@ -1,0 +1,20 @@
+h1 {
+  color: #ff00a8;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.footer {
+  li {
+    line-height: 40px;
+  }
+  i {
+    vertical-align: middle;
+    font-size: 12px;
+  }
+  a {
+    color: #6C757D;
+    &:hover {
+      color: #ff00a8;
+    }
+  }
+}
