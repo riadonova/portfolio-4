@@ -12,7 +12,8 @@ export class Footer extends React.Component {
                         <p className="text-secondary">This theme is a partial copy of the original performance.</p>
                     </div>
                     <div className="col-sm-3">
-                        <ul><h5 className="font-weight-bold text-dark mb-3">Useful Links</h5>
+                        <h5 className="font-weight-bold text-dark mb-3">Useful Links</h5>
+                        <ul className="text-secondary p-0">
                             <li><a href="#"><i className="material-icons mr-2">
                                 keyboard_arrow_right</i>
                                 Home</a></li>
@@ -34,7 +35,8 @@ export class Footer extends React.Component {
                         </ul>
                     </div>
                     <div className="col-sm-3">
-                        <ul className="text-secondary"><h5 className="font-weight-bold text-dark mb-3">Information</h5>
+                        <h5 className="font-weight-bold text-dark mb-3">Information</h5>
+                        <ul className="text-secondary p-0">
                             <li><a href="#"><i className="material-icons mr-2">
                                 keyboard_arrow_right</i>
                                 Look Book</a></li>
@@ -56,7 +58,8 @@ export class Footer extends React.Component {
                         </ul>
                     </div>
                     <div className="col-sm-3">
-                        <ul className="text-secondary"><h5 className="font-weight-bold text-dark mb-3">Contact Info</h5>
+                       <h5 className="font-weight-bold text-dark mb-3">Contact Info</h5>
+                        <ul className="text-secondary p-0">
                             <li><a href="#"><i className="material-icons mr-2">
                                 location_on</i>
                                 Planet Earth</a></li>
@@ -67,6 +70,11 @@ export class Footer extends React.Component {
                                 call</i>
                                 123-456-789</a></li>
                         </ul>
+                        <h5 className="font-weight-bold text-dark mb-3">Newsletter</h5>
+                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button className="btn btn-outline-success my-2 my-sm-0 bg-primary" type="submit"><i
+                            className="material-icons text-white i-send">
+                            send</i></button>
                     </div>
                 </div>
             </div>
