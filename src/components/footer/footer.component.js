@@ -71,8 +71,8 @@ export class Footer extends React.Component {
                                 123-456-789</a></li>
                         </ul>
                         <h5 className="font-weight-bold text-dark mb-3">Newsletter</h5>
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                        <button className="btn btn-outline-success my-2 my-sm-0 bg-primary" type="submit"><i
+                        <input className="form-control mr-sm-2" type="text" placeholder="Enter your email" aria-label="text"/>
+                        <button className="btn btn-outline-primary my-2 my-sm-0 bg-primary" type="submit"><i
                             className="material-icons text-white i-send">
                             send</i></button>
                     </div>
