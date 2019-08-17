@@ -10,8 +10,8 @@ import imgInstSix from '../../img/insta-06.jpg';
 export class Tape extends React.Component {
     render() {
         return (
-            <div className="text-center pb-5">
-                <h2 className="font-weight-bold">@starshop</h2>
+            <div className="text-center pb-5 tape-inst">
+                <h2 className="font-weight-bold pt-1 pb-1">@starshop</h2>
                 <p className="text-secondary mb-4">Follow us on Instagram</p>
                 <div className="row">
                     <div className="col-sm-2 img-inst">
