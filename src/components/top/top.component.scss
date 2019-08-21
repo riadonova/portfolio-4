@@ -24,11 +24,13 @@ $top-text-color: #a3a3a3;
 }
 
 .img-before {
+  width: 100%;
   transition: opacity 0.5s;
 }
 
 .img-after {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   opacity: 0;
@@ -46,8 +48,9 @@ $top-text-color: #a3a3a3;
 .top-option {
   display: none;
   position: absolute;
-  left: 90px;
+  left: 50%;
   bottom: 50px;
+  margin-left: -105px;
   background-color: rgba(29, 29, 29, 0.91);
   width: 210px;
   i {
