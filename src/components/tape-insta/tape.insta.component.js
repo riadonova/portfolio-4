@@ -15,6 +15,7 @@ export class Tape extends React.Component {
                 <p className="text-secondary mb-4">Follow us on Instagram</p>
                 <div className="row">
                     <div className="col-md-2 img-inst">
+                        <div className="wrapper-inst">
                         <img src={imgInstOne} alt="img"/>
                         <div className="inst-after text-white">
                             <div className="inst-meta">
@@ -31,6 +32,7 @@ export class Tape extends React.Component {
                             <span>0</span>
                             </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div className="col-md-2 img-inst">

@@ -20,9 +20,21 @@ export class Navbar extends React.Component {
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BRANDS</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <div className="row">
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">BRAND</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">BRAND</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">BRAND</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -31,9 +43,21 @@ export class Navbar extends React.Component {
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATALOG</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <div className="row">
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">PRODUCT NAME</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">PRODUCT NAME</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">PRODUCT NAME</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -44,9 +68,21 @@ export class Navbar extends React.Component {
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <div className="row">
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
-                                    <div className="col-sm-4"><a className="dropdown-item" href="#">Product Name</a></div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">WOMEN</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">MEN</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
+                                    <div className="col-sm-4"><div className="font-weight-bold text-primary" href="#">CHILDREN</div>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                        <a className="dropdown-item" href="#">Name</a>
+                                    </div>
                                 </div>
                             </div>
                         </li>
