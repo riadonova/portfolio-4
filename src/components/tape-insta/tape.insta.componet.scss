@@ -12,10 +12,16 @@ $img-inst-width: 100%;
   i {
     font-size: 10px;
   }
-  &:hover {
-    .inst-after {
-      opacity: 1;
-    }
+  //&:hover {
+  //  .inst-after {
+  //    opacity: 1;
+  //  }
+  //}
+}
+
+.wrapper-inst:hover {
+  .inst-after {
+    opacity: 1;
   }
 }
 

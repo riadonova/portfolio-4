@@ -36,19 +36,109 @@ export class Tape extends React.Component {
                         </div>
                     </div>
                     <div className="col-md-2 img-inst">
+                        <div className="wrapper-inst">
                         <img src={imgInstTwo} alt="img"/>
+                            <div className="inst-after text-white">
+                                <div className="inst-meta">
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            favorite
+                                        </i>
+                                        <span>8</span>
+                                    </div>
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            chat_bubble
+                                        </i>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-md-2 img-inst">
+                        <div className="wrapper-inst">
                         <img src={imgInstThree} alt="img"/>
+                            <div className="inst-after text-white">
+                                <div className="inst-meta">
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            favorite
+                                        </i>
+                                        <span>8</span>
+                                    </div>
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            chat_bubble
+                                        </i>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-md-2 img-inst">
+                        <div className="wrapper-inst">
                         <img src={imgInstFour} alt="img"/>
+                            <div className="inst-after text-white">
+                                <div className="inst-meta">
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            favorite
+                                        </i>
+                                        <span>8</span>
+                                    </div>
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            chat_bubble
+                                        </i>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-md-2 img-inst">
+                        <div className="wrapper-inst">
                         <img src={imgInstFive} alt="img"/>
+                            <div className="inst-after text-white">
+                                <div className="inst-meta">
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            favorite
+                                        </i>
+                                        <span>8</span>
+                                    </div>
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            chat_bubble
+                                        </i>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-md-2 img-inst">
+                        <div className="wrapper-inst">
                         <img src={imgInstSix} alt="img"/>
+                            <div className="inst-after text-white">
+                                <div className="inst-meta">
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            favorite
+                                        </i>
+                                        <span>8</span>
+                                    </div>
+                                    <div className="inst-item mx-1">
+                                        <i className="material-icons mx-1">
+                                            chat_bubble
+                                        </i>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
