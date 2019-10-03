@@ -9,16 +9,29 @@ import imgBrandFive from '../../img/brand-five.png';
 import imgBrandSix from '../../img/brand-six.png';
 
 export class CarouselBrands extends React.Component {
-    render() {
-        const settings = {
-            dots: false,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            speed: 500,
-            slidesToShow: 5,
-            slidesToScroll: 1
+    constructor(props) {
+        super(props);
+        this.state = {
+            settings:  {
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                speed: 500,
+                slidesToShow: window.innerWidth > 500 ? 5 : 3,
+                slidesToScroll: 1,
+            }
         };
+    }
+    componentDidMount() {
+        window.addEventListener('resize', () => {
+            this.state.settings.slidesToShow = window.innerWidth > 500 ? 5 : 3;
+            this.setState(this.state);
+        }, false);
+    }
+
+    render() {
+        const {settings} = this.state;
         return (
             <div className="container mt-5 mb-5">
                 <div className="text-center">

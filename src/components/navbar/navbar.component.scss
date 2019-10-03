@@ -1,6 +1,18 @@
+@import '../../variables.scss';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+
 .navbar-brand {
   font-family: 'Bowlby One SC', cursive;
   font-size: 40px;
+}
+
+@include media-breakpoint-down('md') {
+  .navbar-brand {
+    font-size: 27px;
+  }
 }
 
 .navbar-collapse {
@@ -25,6 +37,6 @@
 }
 
 .icon-block {
-  width: 240px;
-  text-align: right;
+  margin-left: auto;
+
 }

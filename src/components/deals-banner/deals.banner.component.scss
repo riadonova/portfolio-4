@@ -1,10 +1,38 @@
+@import '../../variables.scss';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 .deals-banner {
   position: relative;
+  overflow: hidden;
   height: 500px;
   background-color: #d7d7d7;
   img {
     float: right;
-    height: 500px;
+    max-height: 500px;
+  }
+}
+
+@include media-breakpoint-down('md') {
+  .deals-banner {
+    img {
+      position: absolute;
+      right: -45%;
+      bottom: 0;
+    }
+  }
+    }
+
+@include media-breakpoint-down('sm') {
+  .deals-banner {
+
+    img {
+      position: absolute;
+      right: -70%;
+      bottom: 0;
+      max-height: 70%;
+    }
   }
 }
 
@@ -12,10 +40,25 @@
   position: absolute;
   top: 10%;
   font-size: 50px;
+  z-index: 100;
+}
+
+@include media-breakpoint-down('sm') {
+  .deals-text {
+    font-size: 35px;
+  }
 }
 
 .deals-header {
   font-size: 70px;
+}
+
+@include media-breakpoint-down('sm') {
+  .deals-header {
+    margin-top: 20px;
+    font-size: 60px;
+    line-height: 65px;
+  }
 }
 
 .offer-text {

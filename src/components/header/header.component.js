@@ -5,7 +5,7 @@ import "../header/header.component.scss";
 export class Header extends React.Component {
     render() {
         return (
-            <div className="header-container clearfix">
+            <div className="header-container clearfix d-none d-lg-block">
                 <div className="header-left">
                     <div className="header-item border-right dropdown">
                             <a className="btn dropdown-toggle" href="#" role="button"

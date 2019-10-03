@@ -12,13 +12,13 @@ export class Footer extends React.Component {
         return (
             <div className="container footer">
                 <div className="row mt-5 mb-3">
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 col-md-6 col-12">
                         <h1 className="mb-3">STAR<span className="text-dark">SHOP</span></h1>
                         <p className="text-secondary">StarShop is an enchanting and easy to use theme that allows you to
                             sell your products in a dynamic way.</p>
                         <p className="text-secondary">This theme is a partial copy of the original performance.</p>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 mt-md-5 col-md-6 col-12">
                         <h5 className="font-weight-bold text-dark mb-3">Useful Links</h5>
                         <ul className="text-secondary p-0">
                             <li><a href="#"><i className="material-icons mr-2">
@@ -41,7 +41,7 @@ export class Footer extends React.Component {
                                 Terms and Conditions</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 col-md-6 col-12">
                         <h5 className="font-weight-bold text-dark mb-3">Information</h5>
                         <ul className="text-secondary p-0">
                             <li><a href="#"><i className="material-icons mr-2">
@@ -64,7 +64,7 @@ export class Footer extends React.Component {
                                 Modern Process</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 col-md-6 col-12">
                         <h5 className="font-weight-bold text-dark mb-3">Contact Info</h5>
                         <ul className="text-secondary p-0">
                             <li><a href="#"><i className="material-icons mr-2">
@@ -80,7 +80,7 @@ export class Footer extends React.Component {
                         <h5 className="font-weight-bold text-dark mb-3">Newsletter</h5>
                         <div className="input-group">
                         <input className="form-control" type="email" placeholder="Enter your email"/>
-                        <button className="btn btn-outline-primary my-2 my-sm-0 bg-primary input-group-append" type="submit"><i
+                        <button className="btn btn-outline-primary my-0 bg-primary input-group-append" type="submit"><i
                             className="material-icons text-white i-send">
                             send</i></button>
                         </div>
@@ -92,16 +92,16 @@ export class Footer extends React.Component {
                             StarShop Mobile app is Available now. Download it now on your favorite device and indulge
                             in a seamless shopping experience.
                         </div>
-                        <div className="col-lg-6 store-btn text-secondary">
+                        <div className="col-lg-6 mt-sm-2 store-btn text-center text-lg-right text-secondary">
                             <a href="#"><img src={imgGooPl} alt="img"/></a>
                             <a href="#"><img className="mr-2" src={imgAppStr} alt="img"/></a>
                         </div>
                     </div>
                     <div className="row mt-3">
-                        <div className="col-lg-6 text-secondary">
-                            <p>© StarShop 2019</p>
+                        <div className="col-5 text-secondary">
+                            <p>{new Date().getFullYear()}</p>
                         </div>
-                        <div className="col-lg-6 img-card">
+                        <div className="col-7 img-card">
                             <img src={imgCardOne} alt="img"/>
                             <img className="mr-2" src={imgCardTwo} alt="img"/>
                             <img className="mr-2" src={imgCardThree} alt="img"/>

@@ -24,7 +24,7 @@ export class Top extends React.Component {
                 </nav>
                 <div className="row">
                     {topProducts.map(product => {
-                        return (<div className="col-lg-3 p-2">
+                        return (<div className="col-lg-3 col-md-6 col-sm-6 p-2">
                             <Product product={product}/>
                         </div>)
                     })}

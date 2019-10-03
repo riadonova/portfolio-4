@@ -6,10 +6,7 @@ export class Navbar extends React.Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light pr-2 pl-2">
                 <a className="navbar-brand" href="#">STAR<span className="text-dark">SHOP</span></a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
@@ -102,6 +99,10 @@ export class Navbar extends React.Component {
                     search
                 </i></a>
                 </div>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
             </nav>
         );
     }

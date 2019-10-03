@@ -1,9 +1,14 @@
+@import '../../variables.scss';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 .img-banner-sale:hover {
   width: 110% !important;
 }
 
 .sale-banner-one {
-  height: 567px;
+  max-height: 567px;
   overflow: hidden;
 
   .text-sales {
@@ -24,11 +29,24 @@
   }
 }
 
+@include media-breakpoint-down('md') {
+  .sale-banner-one {
+    .percent {
+      font-size: 35px;
+    }
+
+    .name-sales {
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
+}
+
 $text-sales-top: 20px;
 
 .sale-banner-two {
   position: relative;
-  height: 270px;
+  max-height: 270px;
   overflow: hidden;
 
   .text-sales {
@@ -47,9 +65,17 @@ $text-sales-top: 20px;
   }
 }
 
+@include media-breakpoint-down('md') {
+  .sale-banner-two {
+    .percent {
+      font-size: 25px;
+    }
+  }
+}
+
 .sale-banner-three {
   position: relative;
-  height: 270px;
+  max-height: 270px;
   overflow: hidden;
 
   .text-sales {
@@ -64,6 +90,14 @@ $text-sales-top: 20px;
 
   .img-banner-sale:hover {
     margin-left: -10px;
+  }
+}
+
+@include media-breakpoint-down('md') {
+  .sale-banner-three {
+    .percent {
+      font-size: 25px;
+    }
   }
 }
 
