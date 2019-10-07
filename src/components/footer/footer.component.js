@@ -18,7 +18,7 @@ export class Footer extends React.Component {
                             sell your products in a dynamic way.</p>
                         <p className="text-secondary">This theme is a partial copy of the original performance.</p>
                     </div>
-                    <div className="col-lg-3 mt-md-5 col-md-6 col-12">
+                    <div className="col-lg-3 col-md-6 col-12 mt-5 mt-lg-0">
                         <h5 className="font-weight-bold text-dark mb-3">Useful Links</h5>
                         <ul className="text-secondary p-0">
                             <li><a href="#"><i className="material-icons mr-2">
