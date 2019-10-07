@@ -1,11 +1,11 @@
 import React from 'react';
 import '../footer/footer.component.scss'
-import imgCardOne from '../../img/_visa.png';
-import imgCardTwo from '../../img/_mastercard.png';
-import imgCardThree from '../../img/_american-ex.png';
-import imgCardFour from '../../img/_paypal.png';
-import imgGooPl from '../../img/_goo-pl.png';
-import imgAppStr from '../../img/_app-str.png';
+import imgCardOne from '../../img/visa.png';
+import imgCardTwo from '../../img/mastercard.png';
+import imgCardThree from '../../img/american-ex.png';
+import imgCardFour from '../../img/paypal.png';
+import imgGooPl from '../../img/goo-pl.png';
+import imgAppStr from '../../img/app-str.png';
 
 export class Footer extends React.Component {
     render() {
